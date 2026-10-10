@@ -1,0 +1,21 @@
+# Dependências (são baixadas pelo npm, não vão para o Git)
+node_modules/
+
+# Arquivos gerados
+dist/
+coverage/
+*.tsbuildinfo
+
+# Variáveis de ambiente (podem conter senhas)
+.env
+.env.*
+!.env.example
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,2 @@
+# Garante quebras de linha no padrão Unix (LF) no repositório, mesmo no Windows
+* text=auto eol=lf

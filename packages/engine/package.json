@@ -1,0 +1,16 @@
+{
+  "name": "@torre/engine",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Regras puras do jogo Babel: avaliação de tentativas, modos e sorteio de palavras.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  }
+}
